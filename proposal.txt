@@ -1,0 +1,19 @@
+Team members:
+Maithilee Kulkarni
+Prerana Maslekar
+Manisha Arora
+
+Topic of Project:
+Verification of x86-Microarchitecture Decode stage using Formal Property Verification
+
+We are using DUT derived from Microarchitecture course project for implementing x86 ISA microarchitecture. The DUT design inputs 16B of Instruction code and outputs length of current instruction and control store signals required by next stages of pipeline. The design is in structural verilog, implemented by one of our team members.
+
+We plan to start with Formal Verification of Decode Stage using JasperGold and extend it to objectively verify the functioning of rest of pipeline stages as time permits. The total number of instructions to be verified is around 150.
+
+The deliverables would be:
+1. Making the custom libary used in the Microarchitecture Project synthesizable,
+2. Testbench properties used for verification of DUT
+3. Bug report for the DUT
+
+
+
